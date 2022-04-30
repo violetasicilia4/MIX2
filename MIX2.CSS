@@ -34,55 +34,48 @@ blockquote { display: flex;
   text-align: left;}
 
 .experiencia
-{  padding-left: 10px;
-    padding-top: 10px;
-    margin-left: 57px;
-    float: left;
-    position: relative;
-    width: 45%;
-    border: steelblue solid 1px;
-    height: auto;}
+{  
+  position:absolute;
+    top:600px;
+    left:-50px;
+  background-color: #d0bfb4;
+border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0em 2em 2em;
+  height: 470px;
+  width: 800px;
+  }
 
 .educacion
-{padding-top: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
-    position: relative;
-    float: left;
-    width: 45%;
-    border: steelblue solid 1px;
-    height: auto;}
-
-.programas{padding-top: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
-    position: relative;
-    float: left;
-    width: 45%;
-    border: steelblue solid 1px;
-    height: auto;
-  
-}
-
-.aptitudes{padding-left: 10px;
-    padding-top: 10px;
-    margin-left: 57px;
-    float: left;
-    position: relative;
-    width: 45%;
-    border: steelblue solid 1px;
-    height: auto}
-
-.contactenos{
-  
-  position:relative;
-    top:20px;
-    left:40px;}
-
-div.contacto
-
- {  position:relative;
-    top:20px;
-    left:40px;
+{  
+  position:absolute;
+    top:600px;
+    left:780px;
   background-color: #d0bfb4;
+border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0em 2em 2em;
+  height: 470px;
+  width: 1500px;
+  }
+.programas{position:absolute;
+    top:1100px;
+    left:-50px;
+  background-color: #d0bfb4;
+border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0em 2em 2em;
+  height: 200px;
+  width: 2000px;}
+
+.aptitudes{position:absolute;
+    top:1300px;
+    left:-50px;
+  background-color: #d0bfb4;
+border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0em 2em 2em;
+  height: 200px;
+  width: 2000px;
+  
 }
